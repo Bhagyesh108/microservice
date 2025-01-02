@@ -8,6 +8,9 @@ spring:
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
     
+  application:
+    name: RATING-SERVICE # by this application name will reflect on Eureka
+    
   jpa:
     hibernate:
       ddl-auto: update
@@ -16,4 +19,12 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
   
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true  
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
     

@@ -10,7 +10,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     
   application:
-    name: USER-SERVICE  # by this application name will reflect on Eureka
+    name: USERSERVICE  # by this application name will reflect on Eureka
     
   jpa:
     hibernate:

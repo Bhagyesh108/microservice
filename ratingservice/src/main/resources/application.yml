@@ -9,7 +9,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     
   application:
-    name: RATING-SERVICE # by this application name will reflect on Eureka
+    name: RATINGSERVICE # by this application name will reflect on Eureka
     
   jpa:
     hibernate:

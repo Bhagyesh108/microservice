@@ -68,7 +68,7 @@ public class UserServiceImpl implements UserService {
 	                    // Set the fetched hotel in the rating
 	                    rating.setHotel(hotel);
 	                } catch (Exception e) {
-	                    logger.error("Error fetching hotel details for rating ID {}: {}", rating.getRatingId(), e.getMessage());
+	                    logger.error("Error fetching hotel details for rating ID {}: {}", rating.getHotelId(), e.getMessage());
 	                }
 	            });
 
